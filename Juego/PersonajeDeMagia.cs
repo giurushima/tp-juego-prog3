@@ -27,6 +27,15 @@ namespace Juego
         public override string Atacar() {
             return $"{Nombre} hizo {x} de daño gracias a su magia";
         }
+        public new string MoverseEjeX()
+        {
+            throw new NotImplementedException();
+        }
+
+        public new string MoverseEjeY()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
 

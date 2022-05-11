@@ -20,6 +20,15 @@ namespace Juego
             x = Fuerza / 2 * Agilidad * Magia / 2;
             return x;
         }
+        public new string MoverseEjeX()
+        {
+            throw new NotImplementedException();
+        }
+
+        public new string MoverseEjeY()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
 
